@@ -1,5 +1,5 @@
 defmodule Scrivener.HTML do
-  use Phoenix.HTML
+  use PhoenixHTMLHelpers
   @defaults [view_style: :bootstrap, action: :index, page_param: :page, hide_single: false]
   @view_styles [:bootstrap, :semantic, :foundation, :bootstrap_v4, :materialize, :bulma]
   @raw_defaults [
